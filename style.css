@@ -23,6 +23,7 @@ body {
     background: linear-gradient(75deg, rgb(14, 14, 14), rgb(43, 43, 43)) ;
     box-shadow: 15px 15px 30px black;
     overflow: hidden;
+    min-height: 1000px;
 
 }
 .card-frame {
@@ -110,4 +111,12 @@ h1 {
 }
 
 
-
+@media (max-width:425px) {
+    h1 {font-size: 5rem;}
+    .text-container {margin-top: 5rem;}
+    .text {font-size: 1rem;}
+    .info {font-size: 1.1rem;}
+}
+.welcome {
+    font-size: 1.5rem;
+}
