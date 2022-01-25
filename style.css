@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: auto;
+    background-color: rgb(21, 21, 21);
+    color:cornflowerblue;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+.card-container {
+    width: 60rem;
+    height: 70rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(75deg, rgb(14, 14, 14), rgb(43, 43, 43)) ;
+    box-shadow: 15px 15px 30px black;
+    overflow: hidden;
+
+}
+.card-frame {
+    border: 5px solid rgba(142, 93, 40, 0.454);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+h1 {
+    color: transparent; 
+    font-family: "Tangerine";
+    font-size: 10rem;
+    background: linear-gradient(75deg,  rgb(142, 93, 40), rgba(233, 217, 151, 0.81));
+    -webkit-background-clip: text;
+    margin: 0;
+}
+
+.text-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sub-text {
+    background: linear-gradient(75deg,  rgb(62, 62, 62), rgba(255, 233, 143, 0.762));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+   
+}
+.first-text {
+    margin-left: ;
+    background: linear-gradient(75deg,  rgb(103, 88, 76), rgba(255, 233, 143, 0.762));
+    -webkit-background-clip: text;
+
+}
+.divider {
+    border-bottom: 5px solid rgba(181, 141, 81, 0.529);  
+    display: block;      
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-right: 170px;
+    margin-top: 2rem;
+}
+.text {
+    color:rgba(233, 217, 151, 0.605);
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 75%;
+    text-align: center;
+}
+.info {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.info-text {
+    color: rgba(233, 217, 151, 0.605);
+    margin: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+}
+.small-text {
+    font-size: 10px;
+    margin: 0;
+
+}
+.welcome {
+    color:rgb(255, 203, 140);
+    font-size: 3rem;
+}
+
+
+
