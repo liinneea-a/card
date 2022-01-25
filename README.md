@@ -1,2 +1,2 @@
 # Inbjudningskort
-[demo] (https://liinneea-a.github.io/card/)
+[demo](https://liinneea-a.github.io/card/)
